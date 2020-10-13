@@ -129,7 +129,7 @@ for ( int row=1; row<=MAX; row++)
 {
 for ( int space =1; space<=MAX-row ; space++)
 {
-System.out.print("") ;
+System.out.print(" ") ;
 }
 for ( int star=1; star<=row ; star++)
 {
