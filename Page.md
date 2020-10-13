@@ -1,4 +1,4 @@
-Bienvenue sur notre page Github 
+## Bienvenue sur notre page Github 
 
 Vous pouvez retrouver tous les projets et code réalisé par notre département sur [CDMV on Github]().
 
@@ -6,11 +6,15 @@ Le thème de notre page Github n'est autre que [Jekyll](https://jekyllrb.com/). 
 
 Notre page Github sera dédié à la réalisation de différents exercices en Java. 
 
-L'apprentissage des boucles for 
+## L'apprentissage des boucles for 
 
 Les exercices seront principalement basés sur l'apprentissage des boucles for avec différents exercices. Développez de nouvelles compétences en apprenant à les réaliser ! 
 
-Exercices 
+## Exercices 
+
+Noter ici la formulation du prof sur les exercices
+
+### Exercice 1
 
 ```markdown
 
@@ -27,7 +31,7 @@ Exercices
 
 ```
 
-Exercices 2 
+### Exercice 2 
 
 ```markdown
 
@@ -44,7 +48,7 @@ Exercices 2
 
 ```
 
-Exercices 3
+### Exercice 3
 
 ```markdown
 
@@ -61,7 +65,7 @@ Exercices 3
 
 ```
 
-Exercices 4 
+### Exercice 4 
 
 ```markdown
 
@@ -78,38 +82,41 @@ Exercices 4
          
 ```
 
-Solutions
+## Solutions
 
-Exercice 1
+### Exercice 1
 
 ```markdown
 
 public class Ex1 {
 public static void main ( String [] args) {
-final int MAX = 10;
+final int MAX = 1 0;
 for ( int row=1; row<=MAX; row++)
 {
 for ( int star =1; star<=row ; star++)
 {
-System.out.print("*");
+System.out.print(”∗”);
 }
 System.out.println( ) ;
 }
 }
 }
 
+
 ```
-Exercice 2
+
+### Exercice 2
 
 ```markdown
+
 public class Ex2 {
 public static void main (String [] args) {
-final int MAX = 10;
+final int MAX = 1 0;
 for ( int row=1; row<=MAX; row++)
 {
 for ( int star=1; star<=MAX-row+1; star++)
 {
-System.out.print("*");
+System.out.print(”∗”);
 }
 System.out.println( ) ;
 }
@@ -118,7 +125,7 @@ System.out.println( ) ;
 
 ```
 
-Exercice 3
+### Exercice 3
 
 ```markdown
 
@@ -127,13 +134,13 @@ public static void main (String [] args) {
 final int MAX = 10;
 for ( int row=1; row<=MAX; row++)
 {
-for ( int space =1; space<=MAX-row ; space++)
+for ( int space =1; space<=MAX−row ; space++)
 {
-System.out.print(" ") ;
+System.out.print(” ”) ;
 }
 for ( int star=1; star<=row ; star++)
 {
-System.out.print("*") ;
+System.out.print(”∗”) ;
 }
 System.out.println( ) ;
 }
@@ -142,22 +149,22 @@ System.out.println( ) ;
 
 ```
 
-Exercice 4
+### Exercice 4
 
 ```markdown
 
-public class Exo4 {
+public class Ex4 {
 public static void main (String [] args) {
-final int MAX = 10;
+final int MAX = 1 0;
 for (int row=1; row<=MAX; row++)
 {
-for (int space=1; space<=row-1; space++)
+for (int space=1; space<=row−1; space++)
 {
-System.out.print(" ") ;
+System.out.print(” ”) ;
 }
-for ( int star=1; star<=MAX-row+1; star++)
+for ( int star=1; star<=MAX−row+1; star++)
 {
-System.out.print("*") ;
+System.out.print(”∗”) ;
 }
 System.out.println( ) ;
 }
@@ -166,7 +173,6 @@ System.out.println( ) ;
 
 ```
 
-Support ou Contact
+## Support ou Contact
 
 Vous avez des problèmes à créer une page Github? Vous ne comprenez pas la réalisation d'un exercice ? Allez voir notre [documentation](https://help.github.com/categories/github-pages-basics/) ou notre [contact support](https://github.com/contact) et nous vous aiderons à vous en sortir.
- 
