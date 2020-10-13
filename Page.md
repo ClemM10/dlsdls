@@ -119,6 +119,29 @@ System.out.println( ) ;
 ```
 
 Exercice 3
+
+```markdown 
+
+public class Ex3 {
+public static void main (String [] args) {
+final int MAX = 10;
+for ( int row=1; row<=MAX; row++)
+{
+for ( int space =1; space<=MAX-row ; space++)
+{
+System.out.print("") ;
+}
+for ( int star=1; star<=row ; star++)
+{
+System.out.print("*") ;
+}
+System.out.println( ) ;
+}
+}
+}
+
+```
+
 Exercice 4
 
 Support ou Contact
